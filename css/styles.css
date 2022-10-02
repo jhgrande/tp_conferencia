@@ -56,3 +56,17 @@
     width: 575px;
     height: 100px;
 }
+
+#grdConvierteteOrador{
+    max-width: 1000px
+}
+
+#navbarB{
+    width: 100%;
+    background-color: #264655;
+}
+
+#navbarBMenu{
+    width: 100%;
+    background-color: #264655;
+}
