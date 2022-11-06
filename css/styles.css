@@ -23,6 +23,7 @@
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-light-green: #78ce46;
 }
 
 #navbarTopMenu {
@@ -57,16 +58,20 @@
     height: 100px;
 }
 
-#grdConvierteteOrador{
+#grdConvierteteOrador {
     max-width: 1000px
 }
 
-#navbarB{
+#navbarB {
     width: 100%;
     background-color: #264655;
 }
 
-#navbarBMenu{
+#navbarBMenu {
     width: 100%;
     background-color: #264655;
+}
+
+#botonCompra {
+    background-color: var(--bs-light-green);
 }
